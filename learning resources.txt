@@ -1,0 +1,2 @@
+https://dev.mysql.com/downloads/installer/ - mysql baza i workbench
+https://www.youtube.com/watch?v=oPV2sjMG53U&list=PLZPZq0r_RZOMskz6MdsMOgxzheIyjo-BZ - video tutorial po kojem radimo
