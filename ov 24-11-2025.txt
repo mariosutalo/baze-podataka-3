@@ -1,6 +1,7 @@
 1: Napraviti tablicu receipt_items sa poljima
 id - int, primarni ključ
-name - text(max 100 znakova), ne može biti prazno i treba biti jedinstven
+name - text(max 100 znakova), ne može biti prazno
+i treba biti jedinstven
 price - decimalni broj (5,2) - ne može biti null
 quantity - decimalni broj (5,2), ne može biti null i nula
 date - datum unosa stavke na račun, ne može biti null
@@ -9,7 +10,8 @@ date - datum unosa stavke na račun, ne može biti null
 
 3.1 Prikazati sve proizvode iz tablice receipt_items
 3.2 Prikazati sve proizvoda kojima je cijena manja od 5.50
-3.3 Prikazati ime, naziv, datum proizvoda kojemu je datum unosa 24-11-2025
+3.3 Prikazati ime, naziv, datum proizvoda kojem
+je datum unosa 24-11-2025
 
 
 
