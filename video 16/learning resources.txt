@@ -1,0 +1,5 @@
+mysql joins:
+https://www.w3schools.com/mysql/mysql_join.asp
+
+name aliases:
+https://workat.tech/core-cs/tutorial/tables-and-column-aliases-in-mysql-rwyzupv7ut3t
