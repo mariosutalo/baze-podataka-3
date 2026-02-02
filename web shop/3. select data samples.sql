@@ -28,3 +28,26 @@ select id, name, price, stock
 from product
 where price < 400
 and stock > 5;
+
+-- broji koliko je proizvoda u bazi
+select count(*) as productsCount
+from product;
+
+-- počni od prvog proizvoda i uzmi max 6 slijedećih proizvoda 
+select id, name price
+from product
+limit 6 offset 0;
+
+-- preskoči prvih 6 proizova i uzmi max slijedećih 6 proizvoda
+select id, name price
+from product
+limit 6 offset 6;
+
+-- preskoči prvih 30 proizova i uzmi max slijedećih 6 proizvoda
+select id, name price
+from product
+limit 6 offset 30;
+
+
+
+
