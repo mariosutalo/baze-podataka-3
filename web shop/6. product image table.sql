@@ -4,6 +4,8 @@ id int primary key auto_increment,
 name varchar(400) not null unique,
 product_id int,
 is_cover boolean,
+-- ako je dodano on delete cascade pri definiciji stranog ključa
+-- pri brisanju proizvoda se brišu i njegove slike u ovoj tablici
 foreign key (product_id) references product(id) on delete cascade
 );
 
@@ -17,8 +19,6 @@ values
 -- briše proizvod sa id = 2 i u isto vrijeme
 -- iz tablice product_image briše sve slike za taj proizvod ako ih ima
 
--- ako nije dodano on delete cascade pri definiciji stranog ključa
--- proizvod se neće moći izbrisati ako postoje slike za taj proizvod
 
 delete from product
 where id = 2;

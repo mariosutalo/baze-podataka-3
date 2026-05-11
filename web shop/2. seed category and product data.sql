@@ -1,3 +1,4 @@
+-- seed data - ubacivanje testnih podataka u tablice
 insert into category (name)
 values ("Monitors"),
 	   ("Graphics cards"),

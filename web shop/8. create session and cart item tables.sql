@@ -4,6 +4,7 @@ uuid varchar(36) primary key
 );
 
 drop table if exists cart_item;
+-- tablica sa dva strana ključa
 create table cart_item (
     id int primary key auto_increment,
     quantity decimal(10,2),
